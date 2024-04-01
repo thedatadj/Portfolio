@@ -28,14 +28,16 @@ const Card = ({ title, description, imageSrc }) => {
         >
           {description}
         </Text>
-        <HStack>
-          <Text
-            fontWeight="bold"
-          >
-            See more
-          </Text>
-          <FontAwesomeIcon icon={faArrowRight} size="1x"/>
-        </HStack>
+        <a href='https://thedatadj.github.io/littlelemon'>
+          <HStack>
+            <Text
+              fontWeight="bold"
+            >
+              See more
+            </Text>
+            <FontAwesomeIcon icon={faArrowRight} size="1x"/>
+          </HStack>
+        </a>
       </VStack>
     </VStack>
   );
