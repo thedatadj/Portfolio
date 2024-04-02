@@ -7,16 +7,16 @@ const projects = [
   {
     title: "Little Lemon Restaurant",
     description:
-      "We are a family owened Mediterranean restaurant, focused on traditional recipes served with a modern twist.",
-    getImageSrc: () => require("../images/photo1.png"),
+      "A complete desktop page for an imaginary meditarrenean restaurant called Litle Lemons.",
+    getImageSrc: () => require("../images/restaurant.jpg"),
     url: "https://thedatadj.github.io/littlelemon/"
   },
   {
-    title: "React Infinite Scroll",
+    title: "Todo App",
     description:
-      "A scrollable bottom sheet with virtualisation support, native animations at 60 FPS and fully implemented in JS land 🔥️",
-    getImageSrc: () => require("../images/photo2.jpg"),
-    url: ""
+      "A mobile app to register you task of the day, nice interface and user-friendly business logic.",
+    getImageSrc: () => require("../images/todo.jpeg"),
+    url: "https://thedatadj.github.io/todo/"
   },
   {
     title: "Photo Gallery",
