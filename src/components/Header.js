@@ -97,18 +97,14 @@ const Header = () => {
           justifyContent="space-between"
           alignItems="center"
         >
-          <nav>
+          <nav style={{margin: "0px"}}>
             {/* Add social media links based on the `socials` data */}
             <HStack spacing={4}>
-              {
-                socials.map((social) =>
-                  (
-                    <a href={social.url}>
-                      <FontAwesomeIcon icon={social.icon} size="2x"/>
-                    </a>
-                  )
-                )
-              }
+              {socials.map((social) =>(
+                <a href={social.url}>
+                  <FontAwesomeIcon icon={social.icon} size="2x"/>
+                </a>
+              ))}
             </HStack>
           </nav>
           <nav>
