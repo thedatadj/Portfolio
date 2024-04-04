@@ -94,10 +94,12 @@ const Header = () => {
         <HStack
           px={16}
           py={4}
+          paddingLeft={{lg: "4em", base: "1em"}}
+          paddingRight={{lg: "4em", base: "1em"}}
           justifyContent="space-between"
           alignItems="center"
         >
-          <nav style={{margin: "0px"}}>
+          <nav>
             {/* Add social media links based on the `socials` data */}
             <HStack spacing={4}>
               {socials.map((social) =>(
