@@ -64,13 +64,13 @@ const ContactMeSection = () => {
       py={16}
       spacing={8}
     >
-      <VStack w={{lg: "80em", base: "40em"}} p={32} alignItems="flex-start">
+      <VStack w={{lg: "79em", base: "30em"}} p={32} alignItems="flex-start">
         <Heading as="h1" id="contactme-section">
           Contact me
         </Heading>
-        <Box p={6} rounded="md" w="100%">
-          <form onSubmit={formik.handleSubmit}>
-            <VStack spacing={4}>
+        <Box p={6} rounded="md" w="100%" padding={0}>
+          <form onSubmit={formik.handleSubmit} >
+            <VStack spacing={4} >
               <FormControl isInvalid=
                 {
                   formik.errors.firstName && formik.touched.firstName
