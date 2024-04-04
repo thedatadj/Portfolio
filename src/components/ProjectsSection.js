@@ -48,7 +48,7 @@ const ProjectsSection = () => {
       </Heading>
       <Box
         display="grid"
-        gridTemplateColumns="repeat(2,minmax(0,1fr))"
+        gridTemplateColumns={{ lg: "repeat(2,minmax(0,1fr))", sm: "repeat(1, miman(0, 1fr))"}}
         gridGap={8}
       >
         {projects.map((project) => (
