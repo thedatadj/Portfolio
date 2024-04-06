@@ -19,11 +19,11 @@ const projects = [
     url: "https://thedatadj.github.io/todo/"
   },
   {
-    title: "Photo Gallery",
+    title: "Games Collection",
     description:
-      "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income",
-    getImageSrc: () => require("../images/photo3.jpg"),
-    url: ""
+      "A One-stop page for games to play my latest games, allowing them to have fun in the cloud",
+    getImageSrc: () => require("../images/game-screen.avif"),
+    url: "https://thedatadj.github.io/games/"
   },
   {
     title: "Event planner",
