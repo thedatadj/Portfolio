@@ -26,7 +26,7 @@ const projects = [
     url: "https://thedatadj.github.io/games/"
   },
   {
-    title: "Xcersie 3000",
+    title: "Xercise 3000",
     description:
       "A mobile application for planning your exercise routine and keep track of your progress  with a few taps",
     getImageSrc: () => require("../images/exercise.avif"),
