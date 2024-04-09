@@ -26,9 +26,9 @@ const projects = [
     url: "https://thedatadj.github.io/games/"
   },
   {
-    title: "Event planner",
+    title: "Xcersie 3000",
     description:
-      "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps",
+      "A mobile application for planning your exercise routine and keep track of your progress  with a few taps",
     getImageSrc: () => require("../images/exercise.avif"),
     url: "https://thedatadj.github.io/xercise3000/"
   },
