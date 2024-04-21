@@ -7,7 +7,7 @@ const projects = [
   {
     title: "Little Lemon Restaurant",
     description:
-      "A complete desktop page for an imaginary meditarrenean restaurant called Litle Lemons.",
+      "A responsive website for the little lemons' restaurant with many cool features like booking a table...",
     getImageSrc: () => require("../images/restaurant.jpg"),
     url: "https://thedatadj.github.io/littlelemon/"
   },
